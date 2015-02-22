@@ -1,0 +1,22 @@
+<?php 
+
+
+$var1 = $_GET['var1'];
+var_dump($var1);
+
+
+
+if ($var1=="age"){
+include ('age.php');
+getAgeCount();}
+else if ($var1=="location"){
+include ('location.php');
+getLocationCount();}
+else if ($var1=="gender"){
+include ('gender.php');
+getGenderCount();}
+else if ($var1=="division"){
+include ('police.php');
+getDivisionCount();}
+
+?>

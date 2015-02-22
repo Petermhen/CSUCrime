@@ -1,0 +1,43 @@
+<?php 
+include 'victim.php'; ?>
+
+
+<?php
+
+
+
+function getGenderCount(){
+
+
+$vicArr = listVictims();
+
+
+$one=0;$two=0;
+
+
+foreach ($vicArr as $row){
+
+
+
+if ($row->SEX =="m"||$row->SEX =="M"){$one++;}
+else {$two++;}
+}
+
+$n_json = '{ "Male": "'.$one.'","Female": "'. $two.'" }';
+
+
+
+
+return $n_json ;
+
+}
+
+?>
+
+
+<?php 
+
+var_dump(getGenderCount());
+
+?>
+																																																																									

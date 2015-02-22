@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<head>
+    <title>Search</title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="description" content="Anonymously Make Reports. Help solve crime." />
+    <link rel="stylesheet" type="text/css" href="../style.css" media="screen" />
+
+</head>
+<body>
+
+<div id="header">
+    <img src="../images/logo.png" id="logo" />
+        <ul>
+        <li><a href="../index.php" ><span>HOME</span></a></li>
+        <li><a href="../newReport.php" ><span id="otherpage">MAKE REPORT</span></a></li>
+        <li><a href="Search.html" class="active"><span id="otherpage">SEARCH</span></a></li>
+    </ul>
+    <p id="layoutdims"></p>
+</div>
+
+<div id="container">
+        <div><div class="a">
+
+
+
+        
+
+      <div>
+         <h2>Search by</h2>
+            Name<br/>
+            <form action="SearchWithApi.php" method="get">
+                <input type="text" name="name"/>
+                <input type="submit" value="SEARCH"/>
+            </form>
+            <br/>
+            Age<br/>
+            <form action="SearchWithApi.php" method="get">
+                <input type="text" name="age"/>
+                <input type="submit" value="SEARCH"/>
+            </form>
+            <br/>
+            Address<br/>
+            <form action="SearchWithApi.php" method="get">
+                <input type="text" name="address"/>
+                <input type="submit" value="SEARCH"/>
+            </form>
+            <br/>
+            Cause of Death<br/>
+            <form action="SearchWithApi.php" method="get">
+                <input type="text" name="method"/>
+                <input type="submit" value="SEARCH"/>
+            </form>
+           
+        </div>
+        </div></div>
+ 
+
+        <div>
+            <div class="c">
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+
+<div id="footer">
+</div>
+
+
+
+</body>
+</html>
+
+

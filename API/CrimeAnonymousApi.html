@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>
+Crime Anonymous API v1 Documentation
+</title>
+</head>
+<body>
+
+<h1>Crime Anonymous API v1 Documentation</h1>
+
+<p>Crime Anonymous API expands open data provided by sources such as the police services and media. It provides a excellent source for information on the fly while allowing you to report crime statics directly into your application. This allows you to not only assist in monitoring crime and other public issues but assist you crime prevention.</p>
+
+<h2>Authentication</h2>
+
+<p>All interactions with the API require a Challonge account with a verified email address and API key. You can generate one from your developer settings page. We support HTTP basic authentication. Username = your Challonge username, Password = your API key. Many clients format these requests as: https://username:api-key@api.challonge.com/v1/... Or, if you prefer, you can just pass your API key as parameter api_key to all method calls.API methods with GET request types are permitted for any tournament, whether belonging to you or not. All other API methods are scoped to tournaments that you either own or have admin access to.</p>
+
+
+<h2>Response Formats</h2>
+
+<p>All responses are given in JSON.  The extension in your request indicates your desired response. e.g. "http://crimeanonymoustt.com/?val1=division" you will get your request headers to accept our json response.</p>
+
+<h2>Validation Errors</h2>
+
+<p>Requests that complete but have validation errors or other issues will return an null array and an error message. </p>
+
+
+<h2>REST API Methods</h2>
+<pre>
+var1=      		GET   	This passes a variable to the query eg "http://crimeanonymoustt.com/?val1="
+var1=location 		GET	This collect information based on crime hotspots
+var1=age		GET	This presents sorted age data
+var1=divisions		GET	Information based on Police Division departments
+var1=gender		GET	Information based on gender
+</pre>
+
+</body>
+
+</html>
+
+
+

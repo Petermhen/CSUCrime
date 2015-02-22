@@ -1,0 +1,249 @@
+.formField{
+	margin-bottom:1em;
+}
+
+#logo{
+	width:35em;
+}
+
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;		/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:100%;
+	font-family: Arial;
+
+
+}
+a {
+	color:#369;
+}
+a:hover {
+	color:#fff;
+	background:#369;
+	text-decoration:none;
+}
+h1, h2, h3 {
+	margin-left:1em;
+	padding:0;
+	color:#5276c0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+img {
+	margin:10px 0 5px;
+}
+#ads img {
+	display:block;
+	padding-top:10px;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+
+}
+#header {
+	
+	border-bottom:1px solid #5276c0;
+	padding-left:2em;
+	margin-right:2em;
+	padding-right: 2em;
+	font-weight:bold;
+}
+#header p,
+#header h1,
+#header h2 {
+	padding:.4em 15px 0 15px;
+	margin:0;
+}
+#header ul {
+	clear:left;
+	float:left;
+	width:100%;
+	list-style:none;
+	margin:10px 0 0 0;
+	padding:0;
+}
+#header ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#header ul li a {
+	display:block;
+	float:left;
+	margin:0 0 0 1px;
+	padding:13px 30px;
+	text-align:center;
+	background:#eee;
+	color:#A8A8A8;
+	text-decoration:none;
+	position:relative;
+	left:15px;
+	line-height:1.3em;
+	font-color:#000;
+	background-color: #949ca7;
+}
+#header ul li a:hover {
+	background:#5276c0;
+	color:#fff;
+}
+#header ul li a.active,
+#header ul li a.active:hover {
+	color:#fff;
+	background:#5276c0;
+	font-weight:bold;
+}
+#header ul li a span {
+	display:block;
+	color:#fff;
+
+}
+
+
+/* 'widths' sub menu */
+#layoutdims {
+	
+	margin:0;
+	padding:0px;
+	text-align:right;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;			/* width of page */
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead 
+					only padding top and bottom is included here, make it whatever value you need */
+	overflow:hidden;
+}
+/* 3 Column settings */
+.threecol {
+	background:#eee;		/* right column background colour */
+}
+.threecol .colmid {
+	right:25%;			/* width of the right column */
+	background:#fff;		/* center column background colour */
+}
+.threecol .colleft {
+	right:50%;			/* width of the middle column */
+	background:#f4f4f4;	/* left column background colour */
+}
+.threecol .col1 {
+		width:21%;			/* Width of left column content (column width minus padding on either side) */
+	left:31%;	
+		/* 100% plus left padding of center column */
+}
+.threecol .col2 {
+
+	width:46%;			/* width of center column content (column width minus padding on either side) */
+	left:102%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+}
+.threecol .col3 {
+	width:21%;			/* Width of right column content (column width minus padding on either side) */
+	left:85%;			/* Please make note of the brackets here:
+					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+
+
+
+
+#container {
+    position: absolute;
+    top: 180px; left: 50px;
+    bottom: 30px; right: 50px;
+   
+}
+
+#container > div {
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+#container div div {
+    
+}
+#container div div.a {
+     border: 1px solid #ccc;
+	padding:.5em;
+
+}
+#container div div.b {
+     margin:0 15px;
+     border: 1px solid #ccc;
+	padding:.5em;
+}
+#container div div.c {
+     padding:.5em;
+    
+}
+
+.caseEntry{
+	padding:1em;
+	display: inline-block;
+	background-color:#949ca7 ;
+	width:92%;
+	margin-bottom:1em;
+ }
+
+.bold {
+	font-weight:bold;
+}
+
+.addToCase{
+	display:"inline-block";
+	width:50px;
+	height:50px;
+	background-color:#5276c0;
+	padding:5px;
+	color:#fff;
+}
+
+.addToCaseDiv{
+	margin-top:20px;
+
+}
+
+
+.boldbluebig{
+	font-weight:bold;
+	color:#5276c0;
+	
+}
